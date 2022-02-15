@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   height: 200px;
+  max-width:720px;
   min-width: 288px;
   margin-bottom: 32px;
   margin-left: auto;
