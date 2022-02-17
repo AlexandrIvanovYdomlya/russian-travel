@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: row;
   width: calc((1184/1280)*100%);
-  margin-top: 90px;
+  margin-top: 82px;
   margin-left: 48px;
   margin-right: 48px;
   margin-bottom: 24px;
@@ -13,14 +13,30 @@
   background-color: #2A2C2F;
 }
 
-@media screen and (max-width: 768px) {
+
+@media screen and (max-width:1279px) {
+  .footer{
+    margin-top: 82px;
+    width: 91%;
+  }
+}
+
+
+@media screen and (max-width:1023px) {
+  .footer{
+    margin-top: 76px;
+    width: 94%;
+  }
+}
+
+@media screen and (max-width: 767px) {
   .footer{
     display: flex;
     margin: 0;
     padding: 0;
     flex-direction: column;
     align-self: start;
-    margin-left: 16px;
+    margin-left: 10px;
     margin-top: 64px;
     max-width: 186px;
 }

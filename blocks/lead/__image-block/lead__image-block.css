@@ -2,3 +2,15 @@
   margin-left: auto;
   margin-right: auto;
 }
+
+@media screen and (min-width:1024px) {
+  .lead__image-block{
+    width: 95%;
+  }
+}
+
+@media screen and (min-width:1280px) {
+  .lead__image-block{
+    width: 83%;
+  }
+}
