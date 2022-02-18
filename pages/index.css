@@ -1,9 +1,10 @@
 @import url(..//vendor/normalize.css);
 @import url(../vendor/fonts/fonts.css);
+@import url(../blocks/body/body.css);
 @import url(../images/logo.svg);
 @import url(../blocks/header/header.css);
 @import url(../blocks/page/page.css);
-@import url(../blocks/header/__lang/header__lang-link.css);
+@import url(../blocks/header/__lang-link/header__lang-link.css);
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/lead/__image/lead__image.css);
 @import url(../blocks/page/page.css);
@@ -38,3 +39,4 @@
 @import url(../blocks/footer/__link-object/footer__link-object.css);
 @import url(../blocks/header/__lang-switch/header__lang-switch.css);
 @import url(../blocks/span/span.css);
+@import url(../blocks/header/__lang-link/_underline/header__lang-link_underline.css);
